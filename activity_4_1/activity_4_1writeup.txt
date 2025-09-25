@@ -1,0 +1,36 @@
+In activity 4_1, the assignment was to build three types of arrays and three types of vectors, and, using printf, print the first element from each of these. 
+With this in mind, I began to dissect my components. 
+
+I must define my terms:
+
+Type: data is stored in a computer as electrical signals, which the computer reads and converts into one of two numbers. It is either a 1 or a 0, a true or a false;
+it is either on, or it is off. These signals are then converted, using various codexes, into a different value; a value of a certain type. The common types of these values are:
+numeric types, such as integers
+character types, such as letters,
+boolean types, which means data that is either true or false; conditionals.
+set types, such as the subject of the assignment, arrays and vectors. There are others.
+Array: arrays store data in an indexed order. Arrays have a size that is determined at creation. I am going to define vectors comparatively to arrays.
+Vector: vectors store data in an indexed order. Vectors have a size that can change, growing bigger depending on the need of the program. (this is called mutability. -->
+Arrays are immutable; meaning they do not change in size.)
+
+Currently, I don't believe I undertstand
+
+
+A) I must build an array. 
+B) I must build an array of a different type.
+C) I must build an array of a different type.
+
+As for vectors,
+A) I must build a vector.
+B) I must build a vector of a different type.
+C) I must build a vector of a different type.
+
+Printing:
+A) I must printf element 1 of array 1
+B) I must printf element 1 of array 2
+C) I must printf element 1 of array 3
+D) I must printf element 1 of vector 1
+E) I must printf element 1 of vector 2
+F) I must printf element 1 of vector 3
+
+
