@@ -1,0 +1,10 @@
+Hi, my name is daniel, I am building a stack. 
+My stack must hold data in an ordered method, and it must consist of at least three functions:
+push
+pop
+print.
+
+Push adds a value to our stack, which "pushes" all the other values down one in our data structure.
+Pop removes a value from the top of that stack, outputting it from our stack. 
+"Print" is what I'm assuming the "peek" thingy, which lets us see what is on top of our plate stack, but does not take them away
+
