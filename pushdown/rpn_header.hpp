@@ -9,6 +9,8 @@ using std::string;
 //function declarations
 int calcadd(int a, int b);
 int calculate(vector<int> q);
+int stackit(vector<int> q);
 vector<int> pop_q(vector<int> q);
-void push_q(vector<int> q, int e);
+int pop_q_internal(vector<int> q);
+vector<int> push_q(vector<int> q, int e);
 void print_stack(vector<int> q);
