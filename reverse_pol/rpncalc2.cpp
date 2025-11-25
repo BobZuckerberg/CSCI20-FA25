@@ -32,12 +32,55 @@ int sucker(int x, int y){
     return a;
 }
 
+vector<int> answers = {};
+
 int main(){
+    sacker = push(sacker, 9999);
     sacker = push(sacker, 9);
     sacker = push(sacker, 10);
-    sacker = push(sacker, 11);
-    print_stack(sacker);
+    sacker = push(sacker, 9998);
+    sacker = push(sacker, 15);
+    sacker = push(sacker, 6);
+    sacker = push(sacker, 9999);
+    sacker = push(sacker, 29);
+    
+    while (sacker.size()>0) {
+        if (sacker.size()<=2) { // Trying to catch single inputs, like a stray 9 or something, without a pairing operative.
+            printf("HI");
+            int temp = topq(sacker);
+            sacker = popq(sacker);
+            sacker = push(sacker, answers[0]);
+            sacker = push(sacker, temp);
+            print_stack(sacker);
+        }
+        int numbercheck = topq(sacker);
+        printf("%d\n", numbercheck);
+        if(numbercheck == 9999) {
+            sacker = popq(sacker);
+            int y = topq(sacker);
+            sacker = popq(sacker);
+            int z = topq(sacker);
+            sacker = popq(sacker);
+            int result = fucker(y, z);
+            answers = push(answers, result);
+            printf("%d\n", result);
+        }
+        else if(numbercheck == 9998) {
+            sacker = popq(sacker);
+            int y = topq(sacker);
+            sacker = popq(sacker);
+            int z = topq(sacker);
+            sacker = popq(sacker);
+            int result = sucker(y, z);
+            answers = push(answers, result);
+            printf("%d\n", result);
+        }
+        else {
+            printf("dear god help you poor freaking soul");
+            break;
+        }
+        }
+    print_stack(answers);
     sacker = popq(sacker);
-    fucker()
     return 0;
 }

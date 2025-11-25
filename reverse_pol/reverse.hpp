@@ -11,4 +11,6 @@ using std::printf;
 //declarations
 int sucker(int x, int y);
 int fucker(int x, int y);
-int top(vector<int> q);
+int topq(vector<int> q);
+vector<int> push(vector<int> q, int e);
+void print_stack(vector<int> q);
