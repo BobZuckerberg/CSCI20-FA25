@@ -1,0 +1,19 @@
+#include <cstdio>
+#include <stack>
+#include <vector>
+
+using std::stack;
+using std::vector;
+
+class A {
+private:
+    stack<char> st;
+public:
+    // constructor
+    A ();
+    // loads characer vector to be unloaded in st
+    void load(vector<char>);
+    // prints things in stack
+    void st_print();
+    void vec_print(vector<char>);
+};
