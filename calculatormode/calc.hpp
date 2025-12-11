@@ -32,7 +32,9 @@ using std::printf;
     stack<dicho> st.
     - stack of type dicho (because he tells us what to do, and gives us numbers)
 - problem: ayo dog you gotta push shi in the stack before you go and calculating and shi bruh
-
+    - gotta get shi from you man, gimme my money,
+        - How: constructor or function
+        - Where:
 -problem: no fucking calculator dude, gotta find a way to "evaluate a saturated stack"
 */
 // this shi the traphouse for opps and eval, fucked up place, NEVER go here
@@ -44,15 +46,16 @@ private:
         int num;
         char op;
     };
-    stack<dicho> st
+    stack<dicho> st;
     int addition(int, int);
     int subtraction(int, int);
     int multiplication(int, int);
     int division(int, int);
 public:
-};
-
-struct dicho {
-    int num;
-    char op;
+    Calc(); //initializes values
+    struct dummy {
+        int num;
+        char op;
+    }
+    void road_in(vector<char>);
 };
