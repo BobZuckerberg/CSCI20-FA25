@@ -1,8 +1,15 @@
 #include <cstdio>
 #include <stack>
+#include <string>
+#include <vector>
+#include <iostream>
 
+using std::cout;
 using std::stack;
 using std::printf;
+using std::string;
+using std::vector;
+
 /*
  yeee they call me a "stack calculator", yheee you can see my monolithic object mhm
 
@@ -56,6 +63,12 @@ public:
     struct dummy {
         int num;
         char op;
-    }
-    void road_in(vector<char>);
+        dummy(int a, char b) {
+            num = a;
+            op = b;
+        }
+    };
+    void road_in(stack<string>);
 };
+stack<Calc::dummy> pushit;
+vector<string> intake;
